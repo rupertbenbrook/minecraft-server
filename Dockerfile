@@ -9,7 +9,6 @@ ENV TYPE=Spigot \
     PVP=false \
     DIFFICULTY=peaceful \
     LEVEL_TYPE=FLAT \
-    OPS=dizzyedge \
     INIT_MEMORY=512M \
     MEMORY=512M \
     MAX_MEMORY=2G
@@ -21,5 +20,12 @@ ADD https://dev.bukkit.org/projects/worldedit/files/latest /plugins/WorldEdit.ja
 ADD https://empcraft.com/fawe/latest.php?bukkit /plugins/FastAsyncWorldEdit.jar
 ADD https://dev.bukkit.org/projects/worldguard/files/latest /plugins/WorldGuard.jar
 ADD https://dev.bukkit.org/projects/citizens/files/latest /plugins/Citizens.jar
+ADD https://dev.bukkit.org/projects/lobbyapi/files/latest /plugins/LobbyAPI.jar
+ADD https://dev.bukkit.org/projects/pixelprinter/files/latest /plugins/PixelPrinter.jar
+ADD https://dev.bukkit.org/projects/vault/files/latest /plugins/Vault.jar
+ADD https://dev.bukkit.org/projects/dynmap/files/latest /plugins/Dynmap.jar
+ADD https://dev.bukkit.org/projects/dynmap-worldguard/files/latest /plugins/Dynmap-WorldGuard.jar
 
 EXPOSE 25565
+EXPOSE 26675
+EXPOSE 8123

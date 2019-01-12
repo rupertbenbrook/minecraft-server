@@ -1,1 +1,7 @@
 data/*
+Client/Minecraft.exe
+Client/.minecraft/*
+Client/runtime/*
+Client/game/*
+Client/tmp/*
+Client/nativelog.txt
